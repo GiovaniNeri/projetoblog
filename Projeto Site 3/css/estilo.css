@@ -1,0 +1,113 @@
+/*Limpar formatações padrões*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif ;
+	background: #e6e6e6;
+}
+
+/* Layout*/
+
+#area-cabecalho {
+	background-color: #397DB6 ;
+	padding: 15px;
+	text-align: center;
+}
+#area-logo, #area-menu {
+	padding: 11px;
+}
+
+
+#area-principal {
+
+	width: 920px;
+	margin: 0px auto;
+	padding: 15px;
+}
+#area-postal {
+	width: 660px;
+	float: left;
+
+}
+
+#area-lateral {
+	width: 240px;
+	float: right;
+}
+
+
+#rodape {
+	clear: both;
+	background: #CCC;
+	text-align: center;
+	padding: 15px;
+}
+/* Formatação do menu */
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #397DB6;
+}
+a:hover {
+	background: #397DB6;
+	color: whitesmoke;
+}
+#area-cabecalho a:link,#area-cabecalho a:visited {
+	color: whitesmoke;
+	padding: 8px 12px ;
+}
+#area-cabecalho a:hover {
+	color: #397DB6;
+	background: #FFF ;
+}
+
+
+/* Formatação */
+
+h1 {
+	color: #353535;
+	font-size: 2.5em ;
+}
+h2 {
+	color: #397DB6 ;
+}
+
+h3 {
+	color: #397DB6 ;
+	background: #CCC;
+	padding: 5px;
+}
+
+.branco {
+	color: whitesmoke;
+} 
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+.data-postal {
+	font-size: 0.8em;
+	color: #737373 ;
+	text-decoration: underline ;
+	padding-bottom: 10px;
+	display: block;
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+}
